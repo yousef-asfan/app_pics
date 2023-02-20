@@ -1,41 +1,47 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+  background-color:#1b1b1b;
+}
 body{
   background-color: #1b1b1b;
 }
 
 canvas {
   display:flex;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .divApp {
-  width: 400px;
-  height: 400px;
+  margin: 20px 25vw;
+  width:400px;
+  height:400px;
+  display:grid;
+  grid-template-columns: 400px 200px;
+  /* grid-row: auto auto; */
+  grid-column-gap: 200px;
+  grid-row-gap: 0px;
 }
 
 .CanvasStyle1 {
   width: 400px;
   height: 400px;
-  top: 0;
-  left: 0;
 }
 
 .CanvasStyle2 {
   width: 400px;
   height: 400px;
-  top: 0;
-  left: 0;
 }
 
 .CanvasStyle3 {
   width: 400px;
   height: 400px;
-  top: 0px;
-  left: 0;
 }
 
 .CanvasStyle4 {
   width: 400px;
   height: 400px;
-  top: 0px;
-  left: 0;
 }
