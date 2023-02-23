@@ -22,6 +22,7 @@ export class BuildScene {
       
         let sizeWidth = canvas.clientWidth;
         let sizeHeight = canvas.clientHeight;
+        console.log('w: '+ sizeWidth + ' h: ' + sizeHeight);
       
         this.camera = new THREE.PerspectiveCamera(75, sizeWidth / sizeHeight, 0.1, 100);
       

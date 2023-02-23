@@ -4,10 +4,10 @@
   box-sizing:border-box;
 }
 html{
-  background-color:#1b1b1b;
+  /* background-color:#1b1b1b; */
 }
 body{
-  background-color: #1b1b1b;
+  /* background-color: #1b1b1b; */
 }
 
 canvas {
@@ -23,25 +23,10 @@ canvas {
   grid-template-columns: 400px 200px;
   /* grid-row: auto auto; */
   grid-column-gap: 200px;
-  grid-row-gap: 0px;
+  grid-row-gap: 20px;
 }
 
-.CanvasStyle1 {
-  width: 400px;
-  height: 400px;
-}
-
-.CanvasStyle2 {
-  width: 400px;
-  height: 400px;
-}
-
-.CanvasStyle3 {
-  width: 400px;
-  height: 400px;
-}
-
-.CanvasStyle4 {
-  width: 400px;
+.CanvasStyle {
+  width: 300px;
   height: 400px;
 }
